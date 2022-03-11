@@ -1,5 +1,10 @@
 # VocalFusion AVS Setup Change Log
 
+## 2.3.1
+
+  * Updated tag for avs-device-sdk
+  * Added information about xvf3615 in readme file
+
 ## 2.3.0
 
   * Added support for xvf3615

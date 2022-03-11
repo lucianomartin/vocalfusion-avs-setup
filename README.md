@@ -6,7 +6,7 @@ The XMOS **xCORE VocalFusion Kit for Amazon AVS** provides far-field voice captu
 
 Combined with a Raspberry Pi running the Amazon Alexa Voice Service (AVS) Software Development Kit (SDK), these kits allow you to quickly prototype and evaluate talking with Alexa.
 
-To find out more, visit: https://www.xmos.ai/vocalfusion-voice-interfaces/ (XVF3610/3500),
+To find out more, visit: https://www.xmos.ai/vocalfusion-voice-interfaces/ (XVF3610/XVF3615/3500),
 https://www.xmos.ai/xvf3510/ (XVF3510)
 or https://www.xmos.ai/vocalfusion-conference-calling/ (XVF3100/3000)
 and: https://developer.amazon.com/alexa-voice-service
@@ -29,7 +29,7 @@ You will need:
 - MicroSD card (min. 16GB)
 - Powered speakers with audio 3.5mm analogue plug
 
-   Stereo for the XVF3610, XVF3510 and XVF3500, or
+   Stereo for the XVF3615, XVF3610, XVF3510 and XVF3500, or
    Mono for the XVF3100 and XVF3000
 
 - Monitor with HDMI input
@@ -41,6 +41,7 @@ You will also need an Amazon Developer account: https://developer.amazon.com
 ## Hardware Setup
 Set up your hardware by following the **Hardware Setup Guide** for your product.
 
+   XVF3615: https://www.xmos.ai/file/xvf3615-dev-kit-setup-guides
    XVF3610: https://www.xmos.ai/file/xvf3610-dev-kit-setup-guides
    XVF3510: https://www.xmos.ai/file/xvf3510-dev-kit-setup-guides
    XVF3500: https://www.xmos.ai/file/xvf3500-dev-kit-setup-guides
@@ -50,6 +51,7 @@ Set up your hardware by following the **Hardware Setup Guide** for your product.
 ## Firmware Upgrade
 Once the hardware is setup, upgrade the firmware on your AVS development kit. The firmware can be found here:
 
+   XVF3615: https://www.xmos.ai/file/xvf3615-int-release
    XVF3610: https://www.xmos.ai/file/xvf3610-int-release
    XVF3510: https://www.xmos.ai/file/xvf3510-int-release
    XVF3500: https://www.xmos.ai/file/vocalfusion-stereo-evaluation-binaries
@@ -110,6 +112,7 @@ When the Raspberry Pi boots up, give these answers to the following questions:
 
    And then either
 
+   XVF3615: ```./auto_install.sh xvf3615```
    XVF3610: ```./auto_install.sh xvf3610```
    XVF3510: ```./auto_install.sh xvf3510```
    XVF3500: ```./auto_install.sh xvf3500```
